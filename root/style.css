@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure body and html take up full page */
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the image */
+.image-container {
+    width: 100%; /* Ensures the container spans the entire width */
+    text-align: center; /* Centers the image horizontally */
+    margin-top: 200px; /* Add top margin */
+    position: relative;
+}
+
+/* Styling the image */
+.image-container img {
+    width: 100vw; /* Custom width (adjust as needed) */
+    height: 750px; /* Maintain aspect ratio */
+    margin: 0; /* Center horizontally */
+    padding: 0;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b7a781;
+    margin: 0;
+    padding: 0;
+    color: rgb(208, 172, 172); /* Adjust text color based on background image contrast */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
